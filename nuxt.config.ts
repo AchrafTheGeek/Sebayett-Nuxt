@@ -1,3 +1,6 @@
+import "./app/lib/env";
+
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   future: {
@@ -34,7 +37,7 @@ export default defineNuxtConfig({
       /** Demo: admin | teacher | server | student */
       mockUserRole: 'admin',
       /** Canonical / OG base URL (override per deployment) */
-      siteUrl: 'https://sebayett.example',
+      siteUrl: 'https://sebayett.com',
     },
   },
   css: ['~/assets/tailwind.css'],
